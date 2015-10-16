@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:50:17
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:44:42
+**************************************************************/
+
+class AgentDataCreateTemplate extends BaseUserCompanyDataCreateTemplate {
+
+	_viewClassName = 'AgentDataTemplateCreateView';
+	_serviceName = 'agent_data_main_service';
+	_type = 'Agent';
+	_route = 'agent';
+
+}

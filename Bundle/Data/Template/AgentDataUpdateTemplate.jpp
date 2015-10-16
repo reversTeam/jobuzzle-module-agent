@@ -1,0 +1,20 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:52:43
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:39:20
+**************************************************************/
+
+class AgentDataUpdateTemplate extends BaseUserCompanyDataUpdateTemplate {
+
+	public _viewClassName = 'AgentDataTemplateUpdateView';
+	public _serviceName = 'agent_data_main_service';
+	public _type = 'Agent';
+	public _route = 'agent';
+
+}
