@@ -1,0 +1,24 @@
+/**************************************************************
+*     ####         #                               #          * Jobuzzle - Copyright All rights reserved
+*     ####         #                               #          *
+*       ##  #####  ######  #     # ####### ####### #  #####   * @Author: revers
+*       ## #     # #     # #     #      #       #  # #     #  *
+*       ## #     # #     # #     #     #       #   # #     #  * @Date:   2015-10-16 15:45:41
+*       ## #     # #     # #     #    #       #    # #     #  *
+*       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
+*  ####### #     # #     # #     #  #       #      # #        *
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:34:38
+**************************************************************/
+
+class AgentDataMainRoute extends BaseUserCompanyDataMainRoute {
+
+	name = 'agent';
+
+	baseName = 'Agent';
+	baseRoute = '{agents}';
+	baseController = 'agent_data_main_controller';
+
+	paramName = 'agent_url';
+	paramRegex = '[a-z0-9-]+';
+
+}
