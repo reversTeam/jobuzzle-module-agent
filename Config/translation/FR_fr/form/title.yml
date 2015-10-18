@@ -7,10 +7,10 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-16 17:28:14
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-17 01:04:56
 ###############################################################
 
 agent:
-	create: 'Créer un agent'
-	edit : 'Editer un agent'
-	search : 'Rechercher des agents'
+	create: 'Créer un représentant'
+	edit : 'Editer un représentant'
+	search : 'Rechercher des représentants'
