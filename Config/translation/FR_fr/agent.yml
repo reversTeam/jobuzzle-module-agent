@@ -7,9 +7,9 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-16 15:03:35
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-17 01:04:48
 ###############################################################
 
-BaseUserCompanies: 'Utilisateurs Professionel'
+Agents: 'Représentants'
 view: '{{url}}'
 update: '{{url}}'
