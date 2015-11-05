@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-04 19:04:23
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-05 14:39:22
 **************************************************************/
 
 class AgentDataHelperDisplayView extends MasterHelperView {
@@ -29,10 +29,11 @@ class AgentDataHelperDisplayView extends MasterHelperView {
 		var router = serviceLocator.get('Router');
 		var collection = store.getAll(this.getCollectionName());
 		var entity = this._template.getEntity();
-
+		var me = store.getMe();
 		var entities = collection.filterByParentEntityRoute(entity);
+		var keys = Object.keys(entities);
 
-		if (!Object.keys(entities).length) {
+		if (!keys.length || (keys.length == 1 && me.getId() == entities[keys[0]].getId())) {
 			var self = this;
 			store.request(router.entityRouteForApi(entity, this.getRouteForApi()), {}, function (datas) {
 				entities = collection.filterByParentEntityRoute(entity);
