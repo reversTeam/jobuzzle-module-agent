@@ -7,7 +7,7 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-05 14:39:22
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-05 23:19:00
 **************************************************************/
 
 class AgentDataHelperDisplayView extends MasterHelperView {
@@ -54,7 +54,7 @@ class AgentDataHelperDisplayView extends MasterHelperView {
 		var entity = this._template.getEntity();
 
 		return keys.map(function (i) {
-			return <div className="employee">
+			return <div className="baseusercompany">
 				{ entities[i].displayTimeline() }
 			</div>
 		});
