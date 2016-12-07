@@ -7,13 +7,13 @@
 *       ## #     # #     # #     #    #       #    # #     #  *
 *       ## #     # #     # #     #   #       #     # ######   * @Last Modified by:   revers
 *  ####### #     # #     # #     #  #       #      # #        *
-*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-10-16 17:38:15
+*  ######   #####   ######  #####  ####### ####### # #######  * @Last Modified time: 2015-11-21 15:30:18
 **************************************************************/
 
 class AgentDataDeleteTemplate extends BaseUserCompanyDataDeleteTemplate {
 
-	_viewClassName = 'AgentDataTemplateDeleteView';
-	_type = 'Agent';
-	_route = 'agent';
+	public _viewClassName = 'AgentDataTemplateDeleteView';
+	public _type = 'Agent';
+	public _serviceName = 'agent_data_main_service';
 
 }

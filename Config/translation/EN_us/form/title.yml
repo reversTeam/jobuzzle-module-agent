@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-16 17:27:09
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:05:27
 ###############################################################
 
 agent:
 	create: 'Create an agent'
 	edit : 'Edit an agent'
 	search : 'Search an agent'
+	delete : Delete agent

@@ -7,10 +7,11 @@
 #       ## #     # #     # #     #    #       #    # #     #  #
 #       ## #     # #     # #     #   #       #     # ######   # @Last Modified by:   revers
 #  ####### #     # #     # #     #  #       #      # #        #
-#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-10-17 01:04:56
+#  ######   #####   ######  #####  ####### ####### # #######  # @Last Modified time: 2015-11-21 15:05:51
 ###############################################################
 
 agent:
 	create: 'Créer un représentant'
 	edit : 'Editer un représentant'
 	search : 'Rechercher des représentants'
+	delete : Supprimer le représentant
